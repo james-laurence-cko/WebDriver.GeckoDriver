@@ -15,7 +15,7 @@
         <copyright>Copyright 2016</copyright>
     </metadata>
     <files>
-        <file src="content\wires.exe" target="content\wires.exe" />
+        <file src="content\geckodriver.exe" target="content\geckodriver.exe" />
         <file src="tools\Install.ps1" target="tools\Install.ps1" />
         <file src="tools\uninstall.ps1" target="tools\uninstall.ps1" />
     </files>
