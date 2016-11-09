@@ -8,7 +8,7 @@
         <owners>James Laurence</owners>
         <licenseUrl>https://github.com/cdtlaurence/WebDriver.GeckoDriver</licenseUrl>
         <projectUrl>https://github.com/cdtlaurence/WebDriver.GeckoDriver</projectUrl>
-        <iconUrl></iconUrl>
+        <iconUrl>https://noicon</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Adds GeckoDriver to the test library for use in WebDriver tests</description>
         <releaseNotes />
