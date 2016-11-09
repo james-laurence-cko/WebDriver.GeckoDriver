@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver.GeckoDriver", "WebDriver.GeckoDriver\WebDriver.GeckoDriver.csproj", "{81DC1106-4C7D-4BD3-8654-B68DF9E77108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver.GeckoDriver.Test", "WebDriver.GeckoDriver.Test\WebDriver.GeckoDriver.Test.csproj", "{DB64002B-2652-4810-9180-57B5D4FA1350}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{81DC1106-4C7D-4BD3-8654-B68DF9E77108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81DC1106-4C7D-4BD3-8654-B68DF9E77108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81DC1106-4C7D-4BD3-8654-B68DF9E77108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB64002B-2652-4810-9180-57B5D4FA1350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB64002B-2652-4810-9180-57B5D4FA1350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB64002B-2652-4810-9180-57B5D4FA1350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB64002B-2652-4810-9180-57B5D4FA1350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

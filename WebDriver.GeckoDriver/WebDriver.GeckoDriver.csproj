@@ -38,7 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="commands.txt" />
-    <Content Include="content\wires.exe" />
+    <Content Include="content\geckodriver.exe" />
     <Content Include="nuget.exe" />
   </ItemGroup>
   <ItemGroup>
