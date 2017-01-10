@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Adds GeckoDriver to the test library for use in WebDriver tests</description>
         <releaseNotes>WebDriver library updated to version 0.18.0</releaseNotes>
-        <Tags>Selenium WebDriver geckodriver Firefox Test</Tags>
+        <tags>Selenium WebDriver geckodriver Firefox Test</tags>
         <copyright>Copyright 2017</copyright>
     </metadata>
     <files>
