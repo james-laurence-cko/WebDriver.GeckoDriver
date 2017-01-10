@@ -2,17 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>WebDriver.GeckoDriver</id>
-        <version>0.11.1</version>
+        <version>0.13.0</version>
         <title>WebDriver.GeckoDriver</title>
         <authors>James Laurence</authors>
         <owners>James Laurence</owners>
         <licenseUrl>https://github.com/cdtlaurence/WebDriver.GeckoDriver</licenseUrl>
         <projectUrl>https://github.com/cdtlaurence/WebDriver.GeckoDriver</projectUrl>
-        <iconUrl>https://noicon</iconUrl>
+        <iconUrl>https://github.com/cdtlaurence/WebDriver.GeckoDriver/blob/master/Leopard_Gecko.ico?raw=true</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Adds GeckoDriver to the test library for use in WebDriver tests</description>
-        <releaseNotes />
-        <copyright>Copyright 2016</copyright>
+        <releaseNotes>WebDriver library updated to version 0.18.0</releaseNotes>
+        <Tags>Selenium WebDriver geckodriver Firefox Test</Tags>
+        <copyright>Copyright 2017</copyright>
     </metadata>
     <files>
         <file src="content\geckodriver.exe" target="content\geckodriver.exe" />
