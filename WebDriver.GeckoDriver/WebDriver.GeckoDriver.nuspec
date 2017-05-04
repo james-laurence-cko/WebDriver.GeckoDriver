@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Adds GeckoDriver to the test library for use in WebDriver tests</description>
         <releaseNotes>Session is now ended when closing the last Firefox window</releaseNotes>
-        <tags>Selenium WebDriver geckodriver Firefox Test</tags>
+        <tags>Selenium WebDriver geckodriver Firefox Unit Test Win64</tags>
         <copyright>Copyright 2017</copyright>
     </metadata>
     <files>
