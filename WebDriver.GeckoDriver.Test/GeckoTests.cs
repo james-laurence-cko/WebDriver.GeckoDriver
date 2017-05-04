@@ -20,6 +20,9 @@ namespace WebDriver.GeckoDriver.Test
                 Thread.Sleep(1000);
                 searchbar.SendKeys(Keys.Enter);
                 Thread.Sleep(5000);
+                var results = driver.FindElementByTagName("body").Text;
+                Assert.IsTrue(results.Contains("James Laurence Estate Agents"), "Search Results Missing");
+                Thread.Sleep(5000);
                 driver.Close();
             }
         }
