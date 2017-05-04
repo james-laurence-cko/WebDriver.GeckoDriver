@@ -2,4 +2,4 @@ C:\wip\WebDriver.GeckoDriver\WebDriver.GeckoDriver>nuget spec -f C:\wip\WebDrive
 
 nuget pack WebDriver.GeckoDriver.nuspec -verbosity detailed
 
-nuget push WebDriver.GeckoDriver.0.16.0.nupkg -Source C:\Nuget.local
+nuget push WebDriver.GeckoDriver.0.16.1.nupkg -Source C:\Nuget.local
