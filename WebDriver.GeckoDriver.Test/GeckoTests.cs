@@ -21,7 +21,7 @@ namespace WebDriver.GeckoDriver.Test
                 searchbar.SendKeys(Keys.Enter);
                 Thread.Sleep(5000);
                 var results = driver.FindElementByTagName("body").Text;
-                Assert.IsTrue(results.Contains("James Laurence Estate Agents"), "Search Results Missing");
+                Assert.IsTrue(results.Contains("James Laurence Group"), "Search Results Missing");
                 Thread.Sleep(5000);
                 driver.Close();
             }

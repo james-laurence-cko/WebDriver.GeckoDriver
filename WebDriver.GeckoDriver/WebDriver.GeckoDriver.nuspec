@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>WebDriver.GeckoDriver</id>
-        <version>0.16.1</version>
+        <version>0.19.0</version>
         <title>WebDriver.GeckoDriver</title>
         <authors>James Laurence</authors>
         <owners>James Laurence</owners>
@@ -11,8 +11,8 @@
         <iconUrl>https://github.com/cdtlaurence/WebDriver.GeckoDriver/blob/master/Leopard_Gecko.ico?raw=true</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Adds GeckoDriver to the test library for use in WebDriver tests</description>
-        <releaseNotes>Session is now ended when closing the last Firefox window</releaseNotes>
-        <tags>Selenium WebDriver geckodriver Firefox Unit Test Win64</tags>
+        <releaseNotes>Added crashreporter environment variables to better control the browser in case of crashes</releaseNotes>
+        <tags>Selenium WebDriver geckodriver Firefox Unit Test Win64 c#</tags>
         <copyright>Copyright 2017</copyright>
     </metadata>
     <files>
