@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>WebDriver.GeckoDriver</id>
-        <version>0.19.1</version>
+        <version>0.20.1</version>
         <title>WebDriver.GeckoDriver</title>
         <authors>James Laurence</authors>
         <owners>James Laurence</owners>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Adds GeckoDriver to the test library for use in WebDriver tests</description>
         <releaseNotes>Session is now ended when closing the last Firefox window</releaseNotes>
-        <tags>Selenium WebDriver geckodriver Mozilla Firefox Unit Test Win64 C#</tags>
+        <tags>Selenium WebDriver Geckodriver Mozilla Firefox Unit Test Win64 C# Web</tags>
         <copyright>Copyright 2018</copyright>
     </metadata>
     <files>

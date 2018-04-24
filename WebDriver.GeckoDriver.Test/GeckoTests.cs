@@ -13,16 +13,16 @@ namespace WebDriver.GeckoDriver.Test
         {
             using (var driver = new FirefoxDriver { Url = "https://www.google.com" })
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(500);
                 var searchbar = driver.FindElementById("lst-ib");
-                Thread.Sleep(1000);
+                Thread.Sleep(500);
                 searchbar.SendKeys("James Laurence");
-                Thread.Sleep(1000);
+                Thread.Sleep(500);
                 searchbar.SendKeys(Keys.Enter);
-                Thread.Sleep(5000);
+                Thread.Sleep(2500);
                 var results = driver.FindElementByTagName("body").Text;
                 Assert.IsTrue(results.Contains("James Laurence Group"), "Search Results Missing");
-                Thread.Sleep(5000);
+                Thread.Sleep(2500);
                 driver.Close();
             }
         }
